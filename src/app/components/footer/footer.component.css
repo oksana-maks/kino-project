@@ -1,0 +1,11 @@
+.flex-wrap {
+  padding: 0 70px;
+  margin: 0;
+}
+
+.my-4 {
+  margin-bottom: 0!important;
+}
+.text-muted:hover {
+  color: #dedddd !important;
+}

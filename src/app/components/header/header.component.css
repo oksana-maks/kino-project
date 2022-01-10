@@ -1,0 +1,45 @@
+.dropdown-item {
+  color: white;
+}
+
+.nav-link {
+  width: 130px;
+}
+
+.dropdown-menu[data-bs-popper] {
+  margin-top: 15px;
+  border: none;
+}
+
+#navbarSupportedContent {
+  margin-left: 50px;
+}
+
+a:hover {
+  background-color: #212529;
+  color: rgb(0, 166, 234);
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+#navbarDropdown img {
+  width: 20px;
+  height: 20px;
+}
+
+.box_exit .nav-link {
+  width: auto;
+  line-height: 0px;
+}
+
+
+
+/*.box_exit {*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  width: 100px;*/
+
+/*}*/
+

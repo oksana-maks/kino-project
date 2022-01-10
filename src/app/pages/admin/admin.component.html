@@ -1,0 +1,18 @@
+<div class="container-fluid admin-panel">
+  <div class="d-flex align-items-start">
+    <div class="nav flex-column nav-pills me-4" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <button class="nav-link" type="button" role="tab" routerLinkActive="active" [routerLink]="['films']">Films</button>
+      <button class="nav-link" type="button" role="tab" routerLinkActive="active" [routerLink]="['news']">News</button>
+      <button class="nav-link" type="button" role="tab" routerLinkActive="active" [routerLink]="['tickets']">Tickets</button>
+      <button class="nav-link" type="button" role="tab" routerLinkActive="active" [routerLink]="['timetable']">Timetable</button>
+
+    </div>
+    <div class="tab-content w-100" id="v-pills-tabContent">
+      <router-outlet></router-outlet>
+    </div>
+
+  </div>
+
+</div>
+
+
